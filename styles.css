@@ -1,0 +1,59 @@
+body {
+   padding: 200;
+    background-color: rgb(33, 128, 141);
+    height: 100%;
+    width:100%;
+    border: aliceblue;
+    font-family: 'Roboto'sans-serif;
+}
+
+
+}
+    
+
+
+<div class="bottomBox">
+
+div>.main-container {
+    border: 1px solid red;
+
+} 
+
+.main{
+    height: 600px;
+    text-align: center;
+    font-size: 100px;    
+}
+.bottomBox{
+    border-style: solid;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div class= About Us
+{
+    width: 270px;
+    height: 324;
+    padding: 10px;
+    text-align: center;
+
+    iv class="About Us
+
+
+}
+
+.officeInfo{
+    width: 270px;
+    height: 324;
+    padding: 10px;
+    text-align: center;
+    
+}
+.contactUs{
+    width: 270px;
+    height: 324;
+    padding: 10px;
+    text-align: center;
+    
+}
