@@ -1,6 +1,6 @@
 body {
    padding: 200;
-    background-color: rgb(33, 128, 141);
+    background-color: rgb(61, 77, 80);
     height: 100%;
     width:100%;
     border: aliceblue;
@@ -8,24 +8,22 @@ body {
 }
 
 
-}
-    
-
-
-<div class="bottomBox">
+/*Not sure we need to include class="bottomBox">
 
 div>.main-container {
     border: 1px solid red;
 
-} 
+}  */
 
 .main{
+   border: 2px solid blue;
     height: 600px;
     text-align: center;
     font-size: 100px;    
 }
 .bottomBox{
     border-style: solid;
+    border: 2px solid pink;
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
