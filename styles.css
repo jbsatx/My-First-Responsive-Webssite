@@ -1,57 +1,29 @@
 body {
-   padding: 200;
-    background-color: rgb(61, 77, 80);
-    height: 100%;
-    width:100%;
-    border: aliceblue;
-    font-family: 'Roboto'sans-serif;
-}
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 25%; 25%; 25%; 25%;
+grid-template-areas:
+"... header ..."
+"... main1 ..."
+"... main2 ..."
+"... main3 ..."
 
 
-/*Not sure we need to include class="bottomBox">
 
-div>.main-container {
-    border: 1px solid red;
 
-}  */
 
-.main{
-   border: 2px solid blue;
-    height: 600px;
-    text-align: center;
-    font-size: 100px;    
-}
-.bottomBox{
-    border-style: solid;
-    border: 2px solid pink;
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-around;
-}
 
-.div class= About Us
-{
-    width: 270px;
-    height: 324;
-    padding: 10px;
-    text-align: center;
 
-    iv class="About Us
+top {
+display: flex;
+
+    }
+display: flex;
+
+
 
 
 }
 
-.officeInfo{
-    width: 270px;
-    height: 324;
-    padding: 10px;
-    text-align: center;
-    
-}
-.contactUs{
-    width: 270px;
-    height: 324;
-    padding: 10px;
-    text-align: center;
-    
+
 }
