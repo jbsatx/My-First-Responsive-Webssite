@@ -1,29 +1,90 @@
 body {
 display: grid;
 grid-template-columns: 100%;
-grid-template-rows: 25%; 25%; 25%; 25%;
+grid-template-rows: 25% 25% 25% 25%;
 grid-template-areas:
-"... header ..."
-"... main1 ..."
-"... main2 ..."
-"... main3 ..."
-
-
-
-
-
-
-
-top {
-display: flex;
-
-    }
-display: flex;
-
-
-
-
+"container"
+"column1"
+"column2"
+"column3"
+;
+height: 1000px;
+font: tahoma, ariel, sans, verdana;
+text-align: center;
+margin: auto;
 }
-
-
+header {
+display: flex;
+justify-content: center;
+align-items: center;
+grid-area: header;
+background-color: blue;
+color: blueviolet;
+font-size: 22pt;
+}
+.container  {
+    display: grid;
+    font-size: 21pt;
+    display: flex;
+    align-items: baseline;
+}
+.column1 {
+    font-size: 10pt;
+    font-style: bold;
+    color: green;
+    margin-left: 24%;
+    margin-right: 30%;
+}
+.column2 {
+    grid-area: main1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+.column3 {
+    font-size: 10pt;
+    font-style: bold;
+    color: green;
+    margin-left: 24%;
+    margin-right: 30%;
+}
+.div {
+    color: aqua;
+}
+@media (min-width: 850px) {
+.body {
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "header header header"
+    "column1 column2 column3";
+    height: 600px;
+    width: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+.container {
+    grid-area: header;
+    background-color: yellow;
+    font-size: 20pt;
+}
+.column1 {
+    grid-area: main1;
+    background-color: blueviolet;
+    font-size: 50pt;
+}
+ .column2 {
+    grid-area: main1;
+    background-color: rgb(29, 3, 52);
+    font-size: 50pt;
+}
+    .column3 { 
+    grid-area: main1;
+    background-color: rgb(166, 61, 61);
+    font-size: 50pt;
+    }
 }
